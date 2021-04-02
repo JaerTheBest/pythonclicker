@@ -4,7 +4,7 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 import random
 import time
 import vkcoin
-token = "9fed2f3cc8f1266cd75c3232e6dc4609dcad82428c57c08f32e230f97bb5514943df244d3c0138888c0a7"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 session_api = vk_session.get_api()
 vk = vk_api.VkApi(token=token)
@@ -23,7 +23,7 @@ for f in range(1000):
             passwordd += random.choice(chars)
         password.append(passwordd)
 longpoll = VkBotLongPoll(vk_session,gr_id)
-merchant = vkcoin.VKCoin(user_id=admin_id, key="_8PL-06[0R#9wxe&-ihlrY[aOMovRl#Vd[s6vV42cl]U-Hiukn")
+merchant = vkcoin.VKCoin(user_id=admin_id, key="")
 pol=[]
 try:
     file=open("priz.txt","r")
