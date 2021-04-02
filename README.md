@@ -1,8 +1,8 @@
 # pythonclicker
 
-Required
+Required<br>
 pip install vk-api
-pip install vkcoin
+<br>pip install vkcoin
 
 By
 jaer.space
